@@ -1,0 +1,19 @@
+{
+    "name": "ed/currency-service",
+    "autoload": {
+        "psr-4": {
+            "CurrencyService\\": ["src/", "config/"]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*",
+        "ext-pdo": "*"
+    },
+    "authors": [
+        {
+            "name": "EdGyulnazaryanDev",
+            "email": "edgyulnazaryandev@gmail.com"
+        }
+    ]
+}
